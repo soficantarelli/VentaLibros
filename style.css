@@ -1,0 +1,77 @@
+body{
+    margin: 50px;
+    padding: 0;
+    background-color:#d2bfac;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 70px 30px;
+}
+
+a:link {
+	color: darkred;
+	text-decoration: none;
+}
+a:visited {
+	color: darkred;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+a:active {
+	color: darkred;
+	text-decoration: none;
+}
+
+td {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+th {
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+}
+
+.agregar{
+	width: 420px;
+    height: 420px;
+	color: green;
+	font-family: Verdana, Geneva, Arial, helvetica, sans-serif;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.agregar input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.agregar input[type="number"], input[type="text"]{
+	width: 50%;
+    border-bottom: 1px solid #fff;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.agregar input[type="submit"]{
+	width: 20%;
+    margin-block-start: 20px;
+    font-size: 15px;
+    border-radius: 40px;
+    color: rgb(31, 30, 30);  
+}
+
+.agregar select{
+	margin-bottom: 7px;
+    margin-left: 5px;
+	width: 50%;
+    border-bottom: 1px solid #fff;
+    height: 20px;
+    margin-left: 10px;
+}
